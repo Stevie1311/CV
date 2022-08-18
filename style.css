@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Lobster&family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.no-bullet {
+    list-style: none;
+}
+
+h1 {
+    color: #1f1e1e;
+    font-weight: 600;
+    font-size: 3rem;
+    opacity: 0.8;
+}
+
+h2 {
+    color: #1f1e1e;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+p {
+    color: #1f1e1e;
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.about {
+    color: #1f1e1e;
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+h3 {
+    color: #1f1e1e;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.span {
+    color: #1f1e1e;
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+main {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(to right top, #2f84ce, #9fcbf4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.glass {
+    background: white;
+    min-height: 65vh;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.1);
+    /* background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.8),      
+        rgba(255, 255, 255, 0.3)
+    ); */
+    border-radius: 2rem;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+    display: flex;
+}
+
+.dashboard {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.8),      
+        rgba(255, 255, 255, 0.3)
+    );
+    border-radius: 2rem;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    line-height: 60px;
+    text-align: left;
+}
+
+.link a {
+    color: #1f1e1e;
+    font-size: 22px;
+}
+
+.games {
+    flex: 4;
+}
+
+
+/* Column 2 */
+
+.status {
+    margin-bottom: 3rem;
+    padding-left: 10px;
+}
+
+
+/* .games {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+} */
+
+.card {
+    display: flex;
+    padding-left: 10px;
+    justify-content: space-between;
+}
+
+.card-info {
+    margin-bottom: 1px;
+    margin-top: 10px;
+}
+
+
+
+
+
